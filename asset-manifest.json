@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/realtime-segmentation/static/css/main.41b86dbc.css",
+    "main.js": "/realtime-segmentation/static/js/main.2241bf71.js",
+    "index.html": "/realtime-segmentation/index.html",
+    "main.41b86dbc.css.map": "/realtime-segmentation/static/css/main.41b86dbc.css.map",
+    "main.2241bf71.js.map": "/realtime-segmentation/static/js/main.2241bf71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41b86dbc.css",
+    "static/js/main.2241bf71.js"
+  ]
+}
