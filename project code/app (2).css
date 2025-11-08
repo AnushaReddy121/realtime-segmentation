@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.abstract {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+  .App > main > div {
+    flex: 1;
+  }
+}

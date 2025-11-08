@@ -1,0 +1,77 @@
+.App {
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.abstract {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main > div {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+  main > div {
+    flex: 1;
+    margin-right: 10px;
+  }
+  main > div:last-child {
+    margin-right: 0;
+  }
+}
